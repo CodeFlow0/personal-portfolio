@@ -114,14 +114,16 @@ h1 {
   background-color: var(--main-blue);
 }
 
-/* ::before {
-  content: '';
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0px;
-  background: #fff;
-  border: 2px solid blue;
-} */
+/* End about styles */
+
+/* Portfolio styles */
+.portfolio-nav-link {
+  color: black;
+}
+
+.portfolio-nav-link:hover {
+  color: var(--main-blue);
+  transition: color .25s ease-in-out;
+}
+
+/* End portfolio styles */
