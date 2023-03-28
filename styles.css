@@ -1,9 +1,65 @@
+:root {
+  --main-blue: #0466c8;
+  --main-text: #16425b;
+}
+
 /* Navbar styles */
+nav {
+  z-index: 10;
+}
+
 .link {
   border-radius: 100px;
 }
 
 .link:hover {
-  background-color: #0466c8;
+  background-color: var(--main-blue);
   color: white;
+}
+
+/* Navbar styles end */
+
+/* Hero styles */
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url(./images/hero_background.jpg) no-repeat;
+  background-size: cover;
+}
+
+#hero-background {
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: .85;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.hero-txt {
+  color: var(--main-text);
+  z-index: 1;
+}
+
+.hero-txt>p {
+  font-size: 1.5rem;
+}
+
+.subhero-txt {
+  color: var(--main-blue);
+}
+
+.social-links {
+  font-size: 1.3rem;
+}
+
+.social-links>i:hover {
+  color: var(--main-blue);
+  cursor: pointer;
+  transform: translateY(-2px);
+  transition: transform .25s ease-in-out;
 }
