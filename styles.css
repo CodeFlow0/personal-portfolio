@@ -1,7 +1,24 @@
 :root {
-  --main-blue: #0466c8;
-  --main-text: #16425b;
+  --main-blue: rgb(5, 99, 187);
+  --main-text: rgb(69, 80, 91);
 }
+
+/* General styles */
+body {
+  background-color: #fff;
+}
+
+.section-title {
+  color: var(--main-text);
+  text-transform: uppercase;
+}
+
+.title-divider {
+  width: 110px;
+  color: var(--main-blue);
+}
+
+/* End general styles */
 
 /* Navbar styles */
 nav {
@@ -63,3 +80,48 @@ h1 {
   transform: translateY(-2px);
   transition: transform .25s ease-in-out;
 }
+
+/* End hero styles */
+
+/* About styles */
+.about-txt h3 {
+  color: rgb(114, 131, 148);
+}
+
+.about-item::before {
+  content: '>';
+  color: var(--main-blue);
+  font-size: 1.3rem;
+  margin-right: .5rem;
+}
+
+/* Facts styles */
+.facts-icon {
+  font-size: 2.5rem;
+  color: var(--main-blue);
+}
+
+.facts-number {
+  font-size: 2rem;
+}
+
+/* Skills styles */
+.skill {
+  text-transform: uppercase;
+}
+
+.skill-bar {
+  background-color: var(--main-blue);
+}
+
+/* ::before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0px;
+  background: #fff;
+  border: 2px solid blue;
+} */
