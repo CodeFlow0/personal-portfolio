@@ -164,3 +164,90 @@ h1 {
 .green {
   color: #9ef01a;
 }
+
+/* End service styles */
+
+/* Testimonial styles */
+.testimonial {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-quote {
+  line-height: 1;
+}
+
+.testimonial-img {
+  width: 100px;
+  border-radius: 100px;
+}
+
+.quotation {
+  font-size: 2rem;
+  color: #00a8e8;
+}
+
+/* Testimonal styles end */
+
+/* Contact styles */
+.info {
+  color: var(--main-text);
+}
+
+.contact-icon {
+  font-size: 1.25rem;
+  color: var(--main-blue);
+  float: left;
+  width: 44px;
+  height: 44px;
+  margin-right: 1rem;
+  background-color: #eef7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all .3s ease-in-out;
+}
+
+.contact-icon:hover {
+  background-color: var(--main-blue);
+  color: #eef7ff;
+}
+
+.contact-button {
+  border-radius: 50px;
+}
+
+/* Contact styles end */
+
+/* Footer styles */
+.footer-info {
+  color: var(--main-text);
+}
+
+.footer-info h2 {
+  font-size: 3rem;
+}
+
+.footer-link {
+  font-size: 1.25rem;
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--main-blue);
+  border-radius: 50px;
+  color: #fff;
+  background-color: var(--main-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .25s ease-in-out;
+}
+
+.footer-link:hover {
+  color: var(--main-blue);
+  background-color: #fff;
+  cursor: pointer;
+}
